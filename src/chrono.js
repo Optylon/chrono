@@ -24,7 +24,7 @@ Chrono.prototype.parse = function(text, refDate, opt) {
     refDate = refDate || new Date();
     opt = opt || {};
     opt.forwardDate = opt.forwardDate || opt.forwardDate;
-    
+
     var allResults = [];
 
     this.parsers.forEach(function (parser) {
@@ -39,7 +39,7 @@ Chrono.prototype.parse = function(text, refDate, opt) {
     this.refiners.forEach(function (refiner) {
         allResults = refiner.refine(text, allResults, opt);
     });
-    
+
     return allResults;
 };
 
@@ -71,9 +71,11 @@ exports.es = new Chrono( options.mergeOptions([
 exports.fr = new Chrono( options.mergeOptions([
     options.fr.casual, options.en, options.commonPostProcessing]));
 
-exports.ja = new Chrono( options.mergeOptions([ 
+exports.ja = new Chrono( options.mergeOptions([
     options.ja.casual, options.en, options.commonPostProcessing]));
 
+exports.pt = new Chrono( options.mergeOptions([
+    options.pt.casual, options.pt, options.commonPostProcessing]));
 
 exports.parse = function () {
     return exports.casual.parse.apply(exports.casual, arguments);

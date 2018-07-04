@@ -72,6 +72,15 @@ exports.ENCasualTimeParser = require('./en/ENCasualTimeParser').Parser;
 exports.JPStandardParser = require('./ja/JPStandardParser').Parser;
 exports.JPCasualDateParser = require('./ja/JPCasualDateParser').Parser;
 
+exports.PTCasualDateParser = require('./pt/PTCasualDateParser').Parser;
+exports.PTDeadlineFormatParser = require('./pt/PTDeadlineFormatParser').Parser;
+exports.PTTimeAgoFormatParser = require('./pt/PTTimeAgoFormatParser').Parser;
+exports.PTTimeExpressionParser = require('./pt/PTTimeExpressionParser').Parser;
+exports.PTWeekdayParser = require('./pt/PTWeekdayParser').Parser;
+exports.PTMonthNameLittleEndianParser = require('./pt/PTMonthNameLittleEndianParser').Parser;
+exports.PTMonthNameLittleEndianParser = require('./pt/PTMonthNameLittleEndianParser').Parser;
+exports.PTSlashDateFormatParser = require('./pt/PTSlashDateFormatParser').Parser;
+
 exports.ESCasualDateParser = require('./es/ESCasualDateParser').Parser;
 exports.ESDeadlineFormatParser = require('./es/ESDeadlineFormatParser').Parser;
 exports.ESTimeAgoFormatParser = require('./es/ESTimeAgoFormatParser').Parser;
@@ -103,3 +112,5 @@ exports.DETimeAgoFormatParser = require('./de/DETimeAgoFormatParser').Parser;
 exports.DETimeExpressionParser = require('./de/DETimeExpressionParser').Parser;
 exports.DEWeekdayParser = require('./de/DEWeekdayParser').Parser;
 exports.DECasualDateParser = require('./de/DECasualDateParser').Parser;
+
+
