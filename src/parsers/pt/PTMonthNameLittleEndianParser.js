@@ -16,7 +16,7 @@ var PATTERN = new RegExp('(\\W|^)' +
         '(?:(Domingo|Segunda|Terça|Quarta|Quinta|Sexta|Sábado|Sabado|Dom|Seg|Ter|Qua|Qui|Sex|Sab|Segunda-feira|Terça-feira|Terca-feira|Quarta-feira|Quinta-feira|Sexta-feira)\\s*,?\\s*)?' +
         '([0-9]{1,2})(?:º|ª|°)?' +
         '(?:\\s*(?:desde|de|\\-|\\–|al?|até|ate|\\s)\\s*([0-9]{1,2})(?:º|ª|°)?)?\\s*(?:de)?\\s*' +
-        '(Jan(?:eiro|\\.)?|Fev(?:eiro|\\.)?|Mar(?:ço|\\.)?|Mar(?:co|\\.)?|Abr(?:il|\\.)?|Mai(?:o|\\.)?|Jun(?:ho|\\.)?|Jul(?:ho|\\.)?|Ago(?:sto|\\.)?|Set(?:embro|\\.)?|Out(?:ubro|\\.)?|Nov(?:embro|\\.)?|Dez(?:embro|\\.)?)' +
+        '(Jan(?:eiro|\\.)?|Fev(?:ereiro|\\.)?|Mar(?:ço|\\.)?|Mar(?:co|\\.)?|Abr(?:il|\\.)?|Mai(?:o|\\.)?|Jun(?:ho|\\.)?|Jul(?:ho|\\.)?|Ago(?:sto|\\.)?|Set(?:embro|\\.)?|Out(?:ubro|\\.)?|Nov(?:embro|\\.)?|Dez(?:embro|\\.)?)' +
         '(?:\\s*(?:de?)?(\\s*[0-9]{1,4}(?![^\\s]\\d))(\\s*[ad]\\.?\\s*c\\.?|a\\.?\\s*d\\.?)?)?' +
         '(?=\\W|$)', 'i'
     );
